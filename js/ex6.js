@@ -11,7 +11,7 @@ guessNumber = function (guess, answer) {
     counter++;
   }
   else if (guess < answer) {
-    pickNumber = Number(prompt("Too low, gess again:"));
+    pickNumber = Number(prompt("Too low, guess again:"));
     counter++;
   }
   else {
